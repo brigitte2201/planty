@@ -6,3 +6,274 @@ Author URI:
 Template: twentytwenty
 Version: 0.1.0
 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+#planty-theme {
+    font-family: Syne !important;
+}
+
+#planty-theme a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+#planty-theme a:hover {
+    color: black !important;
+}
+
+
+/***** wp-header****/
+
+#site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.header-inner {
+    padding: 10px;
+}
+
+.site-logo img {
+    width: 100px;
+    height: 9px;
+}
+
+#planty-theme .nav-toggle {
+    color: #C02E44 !important;
+    right: 30px;
+}
+
+#planty-theme .nav-toggle svg {
+    width: 15px !important;
+}
+
+.toggle-text,
+.texte-commander {
+    display: none;
+}
+
+.nav-commander {
+    width: 50px;
+    height: 30px;
+    background: #DC9F96;
+}
+
+.nav-commander:hover {
+    background: #C02E44;
+}
+
+.icon-commander {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#planty-theme .texte-commander a,
+#planty-theme .icon-commander a {
+    color: white !important;
+}
+
+
+.mobile-menu {
+    background-color: #DC9F96;
+   }
+
+button.close-nav-toggle{
+    padding: 30px 0px 0px 0px;
+}
+
+#planty-theme .modal-menu li a {
+    color:white !important;
+    font-size:15px;
+    padding: 5px 0px 5px 20px;
+
+}
+.modal-menu {
+    left:0px !important;
+}
+.menu-modal li{
+    border: none !important;
+}
+
+.menu-modal .toggle{
+    color: #C02E44 !important;
+}
+
+/**Bouton**/
+#planty-theme .elementor-button{
+    color:white !important;
+}
+
+/** X-Small devices (portrait phones, less than 576px)**/
+@media (min-width: 575.98px) {
+
+    #planty-theme .nav-toggle svg {
+        width: 20px !important;
+    }
+
+
+}
+
+/**Small devices (landscape phones, less than 768px)**/
+@media (min-width: 699.98px) {
+
+    /**wp-header**/
+
+    #site-header {
+        height: 50px;
+    }
+
+    .site-logo img {
+        width: 180px;
+        height: 20px;
+    }
+
+
+    .site-description {
+        font-family: Baskerville;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #326238 !important;
+        margin-top: 0px;
+    }
+
+    #planty-theme .nav-toggle {
+        right: 100px;
+    }
+
+    #planty-theme .nav-toggle svg {
+        width: 30px !important;
+    }
+
+    .texte-commander {
+        display: block;
+    }
+
+    .icon-commander {
+        display: none;
+    }
+
+    .nav-commander {
+        width: 100px;
+        height: 50px;
+    }
+
+    .texte-commander {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 19px;
+    }
+}
+
+/**Medium devices (tablets, less than 992px)**/
+@media (min-width: 999.98px) {
+
+    .primary-menu a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .primary-menu a:hover {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 16px;
+        padding-top: 3px;
+    }
+
+    .nav-commander {
+        width: 136px;
+        height: 50px;
+    }
+
+    .texte-commander {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        padding-top: 15px;
+    }
+}
+
+/**Large devices (desktops, less than 1200px)**/
+@media (min-width: 1199.98px) {
+
+    /**wp-header**/
+
+    .header-inner {
+        padding: 31px 37px;
+
+        .site-logo img {
+            width: 201px;
+            height: 19px;
+        }
+
+    }
+
+    #site-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 80px;
+        margin: auto;
+    }
+
+    .nav-commander {
+        width: 236px;
+        height: 80px;
+    }
+
+    .texte-commander {
+        padding-top: 30px;
+    }
+
+
+}
+
+/**X-Large devices (large desktops, less than 1400px)**/
+@media (min-width: 1399.98px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+/***** wp-footer****/
+
+#site-footer {
+    height: 60px !important;
+}
+
+.footer-planty {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.footer-planty:hover {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    padding-top: 3px;
+}
