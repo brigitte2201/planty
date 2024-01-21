@@ -60,10 +60,10 @@
 					<div class="header-titles">
 
 						<?php
-							// Site title or logo.
+							// Site titre et logo.
 							twentytwenty_site_logo();
 
-							// Site description.
+							// Site description (menu).
 							twentytwenty_site_description();
 						?>
 
@@ -176,8 +176,8 @@
 			</div><!-- .header-inner -->
 
 			<div class="nav-commander">
-					<p class="texte-commander"><a href="http://localhost/Planty/precommande/">Commander</a></p>
-					<p class="icon-commander"><a href="http://localhost/Planty/precommande/"><i class="fa-solid fa-cart-shopping"></i></a></p>
+					<p class="texte-commander"><a href="http://localhost/planty/precommande/">Commander</a></p>
+					<p class="icon-commander"><a href="http://localhost/planty/precommande/"><i class="fa-solid fa-cart-shopping"></i></a></p>
 			</div><!--bouton commande entete-->
 
 			<?php

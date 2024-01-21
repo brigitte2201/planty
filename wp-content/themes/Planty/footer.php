@@ -16,7 +16,7 @@
 
 				<div>
 
-						<p class="footer-planty"><a href="http://localhost/Planty/mentions-legales/">Mentions Légales</a>
+						<p class="footer-planty"><a href="http://localhost/planty/mentions-legales/">Mentions Légales</a>
 						</p><!-- mentions légales -->
 
 				</div><!-- .section-inner -->
